@@ -6,7 +6,9 @@ export type IconNames =
   | 'bell'
   | 'home'
   | 'user'
-  | 'cat';
+  | 'cat'
+  | 'star'
+  | 'star-full';
 
 export interface IconProps {
   testID?: string;

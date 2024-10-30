@@ -7,6 +7,8 @@ import {
   Home,
   User,
   Cat,
+  Star,
+  StarFull,
 } from '@tamagui/lucide-icons';
 
 export const Icon = ({ color, name, size = 20, style, testID }: IconProps) => {
@@ -25,6 +27,10 @@ export const Icon = ({ color, name, size = 20, style, testID }: IconProps) => {
       return <User {...props} />;
     case 'cat':
       return <Cat {...props} />;
+    case 'star':
+      return <Star {...props} />;
+    case 'star-full':
+      return <StarFull {...props} />;
 
     default:
       return <AlertCircle {...props} />;
