@@ -1,0 +1,52 @@
+{
+  "name": "mobile-tmp",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "cleanup": "pnpm exec rimraf node_modules",
+    "lint": "eslint . --ext .ts,.tsx",
+    "prebuild": "expo prebuild"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.3.4",
+    "@react-native-firebase/app": "^19.2.2",
+    "@tamagui/config": "^1.94.5",
+    "@tamagui/lucide-icons": "^1.94.5",
+    "@tanstack/react-query": "^5.28.9",
+    "@tanstack/react-query-devtools": "4",
+    "@types/react": "~18.2.45",
+    "axios": "^1.6.8",
+    "expo": "~50.0.14",
+    "expo-build-properties": "^0.11.1",
+    "expo-constants": "~15.4.5",
+    "expo-linking": "~6.2.2",
+    "expo-router": "~3.4.8",
+    "expo-status-bar": "^1.11.1",
+    "i18next": "^23.11.2",
+    "polished": "^4.3.1",
+    "react": "18.2.0",
+    "react-hook-form": "^7.51.2",
+    "react-i18next": "^14.1.0",
+    "react-native": "0.73.6",
+    "react-native-mmkv": "^2.12.2",
+    "react-native-navigation-bar-color": "^2.0.2",
+    "react-native-reanimated": "^3.8.1",
+    "react-native-safe-area-context": "^4.9.0",
+    "react-native-screens": "~3.29.0",
+    "react-native-svg": "^15.1.0",
+    "react-native-unistyles": "^2.7.1",
+    "tamagui": "^1.94.5",
+    "typescript": "^5.3.0",
+    "zod": "^3.22.4",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@tanstack/eslint-plugin-query": "^5.28.6"
+  },
+  "private": true
+}

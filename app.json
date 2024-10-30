@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "mobile-tmp",
+    "slug": "mobile-tmp",
+    "jsEngine": "hermes",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "mobile-tmp",
+    "experiments": {
+      "tsconfigPaths": true,
+      "typedRoutes": true
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.mobiletmp",
+      "jsEngine": "jsc"
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.mobiletmp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "@react-native-firebase/app",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ]
+    ]
+  }
+}

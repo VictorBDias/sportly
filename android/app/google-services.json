@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "961483420752",
+    "project_id": "mobile-tmp",
+    "storage_bucket": "mobile-tmp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961483420752:android:cc3d44ad6858b733368d55",
+        "android_client_info": {
+          "package_name": "com.anonymous.mobiletmp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC63XM2Q0ucKPn6bb_ODYDs49yqZvWWDus"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
