@@ -13,7 +13,6 @@ export default function TabLayout() {
     <Tabs
       sceneContainerStyle={{
         backgroundColor: colors.background,
-        paddingHorizontal: spacings.regular,
         marginTop: spacings.regular,
       }}
       screenOptions={{

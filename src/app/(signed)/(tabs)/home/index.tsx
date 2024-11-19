@@ -1,6 +1,6 @@
-import { Typography } from '@components/atoms/Typography';
+import { Carrousel } from '@components/molecules/carrousel';
 import { CourtCard } from '@components/molecules/courtCard';
-import { useTranslation } from 'react-i18next';
+import { spacings } from '@design/spacings';
 import { View } from 'react-native';
 
 const MOCK_DATA = [
@@ -48,15 +48,18 @@ const MOCK_DATA = [
 
 export default function Home() {
   return (
-    <View style={{ width: '75%' }}>
-      {MOCK_DATA.map(item => (
-        <CourtCard
-          avatar={item.image_url}
-          description={item.description}
-          rate={item.rate}
-          title={item.name}
-        />
-      ))}
-    </View>
+    <>
+      <Carrousel />
+      <View style={{ width: '75%', paddingHorizontal: spacings.regular }}>
+        {MOCK_DATA.map(item => (
+          <CourtCard
+            avatar={item.image_url}
+            description={item.description}
+            rate={item.rate}
+            title={item.name}
+          />
+        ))}
+      </View>
+    </>
   );
 }
